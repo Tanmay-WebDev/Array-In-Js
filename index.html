@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array In JS</title>
+</head>
+<body>
+    <h1>Maths Using Array</h1>
+    <p id="result"></p>
+
+
+    <script>
+        var num = [20,30,123 ,3456, 23, 254];
+
+
+        var max = Math.max(...num);
+        var min = Math.min(...num);
+
+        document.write("Maximum:  " + max + "<br>");
+
+        document.write("Minimum:   " + min);
+
+        var skill = ["Coding", "Proggraming", "Math", "General Knowledge"];
+        document.getElementById("result").innerHTML = skill[2];
+    </script>
+</body>
+</html>
